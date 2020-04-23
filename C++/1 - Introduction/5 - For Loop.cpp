@@ -14,7 +14,7 @@ int main ()
 
             for (int index = starting_number; index <= ending_number; ++index)
             {
-                if (index <= 0) {
+                if (index <= 9) {
 
                     std::cout<<number[index-1]<<std::endl;
 
@@ -32,7 +32,6 @@ int main ()
                 }
             }
         }
-
-
     }
+    return 0;
 }
