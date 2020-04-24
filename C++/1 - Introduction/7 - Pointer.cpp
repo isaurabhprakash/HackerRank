@@ -2,14 +2,14 @@
 
 #include <iostream>
 
-int mod (int num) 
+int mod (int pNum) 
 {
-    return num < 0 ? num * (-1) : num;
+    return pNum < 0 ? pNum * (-1) : pNum;
 }
-void update(int *a,int *b) {
+void update(int *pNum1,int *pNum2) {
     
-    *a = *a + *b;
-    *b = mod(*a - 2*(*b));
+    *pNum1 = *pNum1 + *pNum2;
+    *pNum2 = mod(*pNum1 - 2*(*pNum2));
 }
 
 int main ()
