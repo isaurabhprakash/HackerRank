@@ -12,7 +12,7 @@ int main ()
     std::cin>>major_array_length; 
     std::cin>>no_of_queries;
 
-    // Length of the maajor array, each elemnt of which will point to another array
+    // Length of the major array, each elemnt of which will point to another array
     arr = new int*[major_array_length];
 
     // Take the input
