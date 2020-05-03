@@ -12,8 +12,7 @@ int main ()
 
     std::cin>>no_of_elements;
 
-    while (no_of_elements--)
-    {
+    while (no_of_elements--) {
         if (std::cin>>number) {
             
             vector_number.push_back (number);
@@ -28,8 +27,7 @@ int main ()
     // Also doint pre-increment instead of post-increment would require less processing and memory
     // as a temporary variable would not be needed in this case.
     // Need to verify this from the assembly code.
-    for (std::vector<int>::iterator it = vector_number.begin(); it!= vector_number.end(); ++it)
-    {
+    for (std::vector<int>::iterator it = vector_number.begin(); it!= vector_number.end(); ++it) {
         std::cout<<*it<<" ";
     }
     return 0;
