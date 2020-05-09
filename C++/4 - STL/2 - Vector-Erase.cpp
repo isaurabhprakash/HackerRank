@@ -24,7 +24,7 @@ int main ()
 
     std::cin>>temp>>temp1;
 
-    // Since the vecotr index starts with 1 here.
+    // Since the vecotr index starts from 1 here.
     temp = temp -1;
     temp1 = temp1 - 1;
 
