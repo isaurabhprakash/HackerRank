@@ -18,7 +18,7 @@ int main ()
 
     std::cin>>temp;
 
-    // Since the vecotr index starts with 1 here.
+    // Since the vecotr index starts form 1 here.
     temp = temp - 1;
     v.erase(v.begin() + temp);
 
