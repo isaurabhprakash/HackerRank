@@ -14,8 +14,6 @@ int main ()
         int             element;
         std::set<int>   s;
 
-        
-    
     std::cin>>no_of_queries;
 
     while (no_of_queries--)
