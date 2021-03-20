@@ -4,4 +4,5 @@ void postOrder(Node *root) {
 
     postOrder (root->Left);
     postOrder (root->Right);
+    cout<<root->data<<" ";
 }
